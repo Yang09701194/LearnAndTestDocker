@@ -17,13 +17,13 @@ I guess it's because many package only support docker on linux, but not support 
 001-在 Cent OS 7 上安装 docker-ce]() works, and install Docker successfully
 
 
-### Virtualbox Network Connect from Hosr to Guest Virtual CentOS Machine
+### Virtualbox Network Connect from Host to Guest Virtual CentOS Machine
 
 * Related Link
   * https://gist.github.com/odan/48fc744434ec6566ca9f7a993f4a7ffb
   * https://serverfault.com/questions/225155/virtualbox-how-to-set-up-networking-so-both-host-and-guest-can-access-internet
 * My Setting
-  * Adpater1  NAT, Adapter2 Host-only + Advanced - Allow All
+  * Adpater1: NAT, Adapter2: Host-only + Advanced - Allow All
   * ![alt text](https://i.imgur.com/Ync4chK.png)
 * After turn on the OS, use `ifconfig` to show the network information, by my test the correct IP position is in `np0s8`
   * ![alt text](https://i.imgur.com/dlyXQJK.png)
