@@ -6,6 +6,8 @@
 
 3- Got Error: [no matching manifest for windows/amd64 in the manifest list entries](https://stackoverflow.com/questions/48066994/docker-no-matching-manifest-for-windows-amd64-in-the-manifest-list-entries) 
 
+I guess it's because many package only support docker on linux, but not support docker on windows, so I want to make a linux OS with docker.
+
 4- Turn to test on Linux Docker, first [Install CentOS](http://blog.itist.tw/2014/07/centos7-prepare.html)
 
 5- Then I first try [Docker Official Tutorial: Get Docker CE for CentOS](https://docs.docker.com/install/linux/docker-ce/centos/) <br/> 
